@@ -5,9 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=20:antialias=true:autohint=true";
-static char *font2[] = { "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
-                         "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true"
+static char *font = "Jetbrains mono:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = { "mono:pixelsize=20:antialias=true:autohint=true",
+                         "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
+                         "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "emoji:style=Solid:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
